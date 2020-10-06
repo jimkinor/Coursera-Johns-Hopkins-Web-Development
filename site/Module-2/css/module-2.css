@@ -1,0 +1,71 @@
+/********** Base styles **********/
+ html,body{
+width: 100%;
+height: 100%;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+h1 {
+  margin-bottom: 15px;
+  width: 100%;
+  text-align: center;
+}
+p {
+  padding: 10px;
+  margin: 0;
+}
+.row {
+  justify-content: space-around;
+  display: block;
+  width: 100%;
+}
+.outer {
+  display: inline-block;
+  background-color: lightgray;
+  position: relative;
+  margin: 10px;
+  border: solid black 1px;
+  float: left;
+  width: 96%;
+}
+#chicken-inner, #beef-inner, #sushi-inner {
+  position: relative;
+  margin-left: auto;
+  width: 75px;
+  right: 0;
+  border: solid black 1px;
+  font-size: 1.25em;
+  color: white;
+}
+#chicken-inner {
+  background-color: darkred;
+}
+#beef-inner {
+  background-color: blue;
+}
+#sushi-inner {
+  background-color: teal;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .outer:nth-child(-n+2) {
+    width: 47%;
+  }
+  .outer:first-child {
+    float: left;
+  }
+  .outer:nth-child(2) {
+    float: right;
+  }
+  .outer:last-child {
+  width: 97.75%;
+  }
+ }
+@media (min-width: 992px) {
+  .outer {
+    width: 31%;
+  }
+}
+
