@@ -1,0 +1,22 @@
+h1 {
+	margin: 0;
+	padding: 0;
+}
+.navbar-header {
+	padding-bottom: 8px;
+}
+body {
+	background-color: #ff6361;
+}
+.navbar {
+	background-color: #003f5c;
+	color: white;
+	min-height: 0px;
+	margin-bottom: 0;
+}
+.inner{
+	background-color: #bc5090;
+	padding: 10px;
+	margin-bottom: 1em;
+}
+
