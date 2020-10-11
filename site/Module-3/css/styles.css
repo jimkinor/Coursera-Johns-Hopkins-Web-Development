@@ -4,6 +4,8 @@ h1 {
 }
 .navbar-header {
 	padding-bottom: 8px;
+	border-top-right-radius: 0;
+	border-top-left-radius: 0;
 }
 body {
 	background-color: #ff6361;
